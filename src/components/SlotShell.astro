@@ -1,0 +1,9 @@
+---
+const { title } = Astro.props;
+---
+
+<section class="panel slot-shell" data-testid="astro-slot-shell">
+  <h2>{title}</h2>
+  <slot name="toolbar" />
+  <slot />
+</section>

@@ -1,0 +1,15 @@
+{
+  "name": "enhance-astro-island-smoke",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev --host 127.0.0.1 --port 4231",
+    "backend": "bun backend.ts"
+  },
+  "dependencies": {
+    "@astrojs/react": "^5.0.7",
+    "astro": "^6.4.4",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7"
+  }
+}
