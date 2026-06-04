@@ -7,6 +7,10 @@ import "../../styles.css";
 const backendUrl = "http://localhost:8149";
 const city = Astro.params.city;
 const route = `${Astro.url.pathname}${Astro.url.search}${Astro.url.hash}`;
+
+export function getStaticPaths() {
+  return [{ params: { city: "東京" } }];
+}
 ---
 
 <Layout title="Astro Account Smoke">
