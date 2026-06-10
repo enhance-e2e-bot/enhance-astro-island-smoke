@@ -7,9 +7,9 @@
     "backend": "bun backend.ts"
   },
   "dependencies": {
-    "@astrojs/react": "^5.0.7",
-    "astro": "^6.4.4",
-    "react": "^19.2.7",
-    "react-dom": "^19.2.7"
+    "@astrojs/react": "^4.2.0",
+    "astro": "^5.0.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
   }
 }
